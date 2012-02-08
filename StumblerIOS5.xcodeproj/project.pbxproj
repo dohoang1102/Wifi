@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B436C7B146500D70060609B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B436C7A146500D70060609B /* UIKit.framework */; };
+		3B436C7D146500D70060609B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B436C7C146500D70060609B /* Foundation.framework */; };
+		3B436C7F146500D70060609B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B436C7E146500D70060609B /* CoreGraphics.framework */; };
+		3B436C85146500D80060609B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B436C83146500D80060609B /* InfoPlist.strings */; };
+		3B436C87146500D80060609B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B436C86146500D80060609B /* main.m */; };
+		3B436C8B146500D80060609B /* SampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B436C8A146500D80060609B /* SampleAppDelegate.m */; };
+		3B436C8E146500D80060609B /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B436C8D146500D80060609B /* SampleViewController.m */; };
+		3B436C91146500D80060609B /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B436C8F146500D80060609B /* SampleViewController.xib */; };
+		3B436C99146501100060609B /* SOLStumbler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B436C97146501100060609B /* SOLStumbler.m */; };
+		3B436C9D146505770060609B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B436C9B146505770060609B /* Default.png */; };
+		3B436C9E146505770060609B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B436C9C146505770060609B /* icon.png */; };
+		3B436CA0146505870060609B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B436C9F146505870060609B /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B436C76146500D70060609B /* StumblerIOS5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StumblerIOS5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B436C7A146500D70060609B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B436C7C146500D70060609B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B436C7E146500D70060609B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B436C82146500D80060609B /* StumblerIOS5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StumblerIOS5-Info.plist"; sourceTree = "<group>"; };
+		3B436C84146500D80060609B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B436C86146500D80060609B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B436C88146500D80060609B /* StumblerIOS5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StumblerIOS5-Prefix.pch"; sourceTree = "<group>"; };
+		3B436C89146500D80060609B /* SampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleAppDelegate.h; sourceTree = "<group>"; };
+		3B436C8A146500D80060609B /* SampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleAppDelegate.m; sourceTree = "<group>"; };
+		3B436C8C146500D80060609B /* SampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		3B436C8D146500D80060609B /* SampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
+		3B436C90146500D80060609B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SampleViewController.xib; sourceTree = "<group>"; };
+		3B436C97146501100060609B /* SOLStumbler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOLStumbler.m; sourceTree = "<group>"; };
+		3B436C98146501100060609B /* SOLStumbler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOLStumbler.h; sourceTree = "<group>"; };
+		3B436C9B146505770060609B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3B436C9C146505770060609B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3B436C9F146505870060609B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B436C73146500D70060609B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B436C7B146500D70060609B /* UIKit.framework in Frameworks */,
+				3B436C7D146500D70060609B /* Foundation.framework in Frameworks */,
+				3B436C7F146500D70060609B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B436C6B146500D70060609B = {
+			isa = PBXGroup;
+			children = (
+				3B436C9F146505870060609B /* icon.png */,
+				3B436C80146500D70060609B /* StumblerIOS5 */,
+				3B436C79146500D70060609B /* Frameworks */,
+				3B436C77146500D70060609B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B436C77146500D70060609B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B436C76146500D70060609B /* StumblerIOS5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B436C79146500D70060609B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B436C7A146500D70060609B /* UIKit.framework */,
+				3B436C7C146500D70060609B /* Foundation.framework */,
+				3B436C7E146500D70060609B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B436C80146500D70060609B /* StumblerIOS5 */ = {
+			isa = PBXGroup;
+			children = (
+				3B436C97146501100060609B /* SOLStumbler.m */,
+				3B436C98146501100060609B /* SOLStumbler.h */,
+				3B436C89146500D80060609B /* SampleAppDelegate.h */,
+				3B436C8A146500D80060609B /* SampleAppDelegate.m */,
+				3B436C8C146500D80060609B /* SampleViewController.h */,
+				3B436C8D146500D80060609B /* SampleViewController.m */,
+				3B436C8F146500D80060609B /* SampleViewController.xib */,
+				3B436C81146500D80060609B /* Supporting Files */,
+			);
+			path = StumblerIOS5;
+			sourceTree = "<group>";
+		};
+		3B436C81146500D80060609B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B436C9A146505770060609B /* assets */,
+				3B436C82146500D80060609B /* StumblerIOS5-Info.plist */,
+				3B436C83146500D80060609B /* InfoPlist.strings */,
+				3B436C86146500D80060609B /* main.m */,
+				3B436C88146500D80060609B /* StumblerIOS5-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B436C9A146505770060609B /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				3B436C9B146505770060609B /* Default.png */,
+				3B436C9C146505770060609B /* icon.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B436C75146500D70060609B /* StumblerIOS5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B436C94146500D80060609B /* Build configuration list for PBXNativeTarget "StumblerIOS5" */;
+			buildPhases = (
+				3B436C72146500D70060609B /* Sources */,
+				3B436C73146500D70060609B /* Frameworks */,
+				3B436C74146500D70060609B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StumblerIOS5;
+			productName = StumblerIOS5;
+			productReference = 3B436C76146500D70060609B /* StumblerIOS5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B436C6D146500D70060609B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "RIA/Cocoa Developer";
+			};
+			buildConfigurationList = 3B436C70146500D70060609B /* Build configuration list for PBXProject "StumblerIOS5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B436C6B146500D70060609B;
+			productRefGroup = 3B436C77146500D70060609B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B436C75146500D70060609B /* StumblerIOS5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B436C74146500D70060609B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B436C85146500D80060609B /* InfoPlist.strings in Resources */,
+				3B436C91146500D80060609B /* SampleViewController.xib in Resources */,
+				3B436C9D146505770060609B /* Default.png in Resources */,
+				3B436C9E146505770060609B /* icon.png in Resources */,
+				3B436CA0146505870060609B /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B436C72146500D70060609B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B436C87146500D80060609B /* main.m in Sources */,
+				3B436C8B146500D80060609B /* SampleAppDelegate.m in Sources */,
+				3B436C8E146500D80060609B /* SampleViewController.m in Sources */,
+				3B436C99146501100060609B /* SOLStumbler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B436C83146500D80060609B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B436C84146500D80060609B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B436C8F146500D80060609B /* SampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B436C90146500D80060609B /* en */,
+			);
+			name = SampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B436C92146500D80060609B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B436C93146500D80060609B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B436C95146500D80060609B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StumblerIOS5/StumblerIOS5-Prefix.pch";
+				INFOPLIST_FILE = "StumblerIOS5/StumblerIOS5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B436C96146500D80060609B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StumblerIOS5/StumblerIOS5-Prefix.pch";
+				INFOPLIST_FILE = "StumblerIOS5/StumblerIOS5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B436C70146500D70060609B /* Build configuration list for PBXProject "StumblerIOS5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B436C92146500D80060609B /* Debug */,
+				3B436C93146500D80060609B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B436C94146500D80060609B /* Build configuration list for PBXNativeTarget "StumblerIOS5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B436C95146500D80060609B /* Debug */,
+				3B436C96146500D80060609B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B436C6D146500D70060609B /* Project object */;
+}
